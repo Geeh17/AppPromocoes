@@ -1,5 +1,5 @@
 import { View, Text } from "react-native"
-import { IconMapPin, IconQrcode, IconTicket } from "@tabler/icons-react-native";
+import { IconMapPin, IconQrcode, IconTicket } from "@tabler/icons-react-native"
 
 import { s } from "./styles"
 import { Step } from "../step"
@@ -12,7 +12,7 @@ export function Steps() {
       <Step
         icon={IconMapPin}
         title="Encontre estabelecimentos"
-        description="Veja locais perto de você que são parceiros PromoApp"
+        description="Veja locais perto de você que são parceiros Nearby"
       />
 
       <Step
